@@ -30,13 +30,25 @@
     font-weight: bold;
     src: url("../fonts/webhostinghub-glyphs.ttf") format("opentype");
 }
-
+@font-face {
+    font-family: Sansation;
+    src: url("../fonts/Sansation_Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: Sansation;
+    font-weight: bold;
+    src: url("../fonts/Sansation_Regular.ttf") format("opentype");
+}
 
 /* Base structure */
 html,
 body {
     height: 100%;
-    background-color: #333;
+    background: black;
+    background: -webkit-linear-gradient(left, black , #1d1d1d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black, #1d1d1d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black, #1d1d1d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black , #1d1d1d); /* Standard syntax */
 }
 body {
     color: #fff;
@@ -89,69 +101,40 @@ h3 {
     border-bottom-color: #9D2737;
 }
 
-/*@media (min-width: 768px) {*/
-    /*.masthead-brand {*/
-        /*float: left;*/
-    /*}*/
-    /*.masthead-nav {*/
-        /*float: right;*/
-    /*}*/
-/*}*/
+/* Jumbotron */
+.jumbotron-starfarer {
+    background-image: url("../img/Starfarer.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-size: 80%;
+    margin-bottom: 30px;
+    color: inherit;
+    padding: 20px 0 20px 0;
+    min-height: 200px;
+    text-shadow: 0px 0px 3px #000;
+}
+.p-starfarer {
+    font-family: Sansation, Helvetica, Verdana, Sans-Serif;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-starfarer {
+    font-family: Sansation, Helvetica, Verdana, Sans-Serif;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-image: url("../img/ButtonBlueBars.png");
+    background-size: 100% 100%;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    min-width: 150px;
+}
 
-
-/*/!**/
- /** Cover*/
- /**!/*/
-
-/*.cover {*/
-    /*padding: 0 20px;*/
-/*}*/
-/*.cover .btn-lg {*/
-    /*padding: 10px 20px;*/
-    /*font-weight: bold;*/
-/*}*/
-
-
-/*/!**/
- /** Footer*/
- /**!/*/
-
-/*.mastfoot {*/
-    /*color: #999; /!* IE8 proofing *!/*/
-    /*color: rgba(255,255,255,.5);*/
-/*}*/
-
-
-/*/!**/
- /** Affix and center*/
- /**!/*/
-
-/*@media (min-width: 768px) {*/
-    /*/!* Pull out the header and footer *!/*/
-    /*.masthead {*/
-        /*position: fixed;*/
-        /*top: 0;*/
-    /*}*/
-    /*.mastfoot {*/
-        /*position: fixed;*/
-        /*bottom: 0;*/
-    /*}*/
-    /*/!* Start the vertical centering *!/*/
-    /*.site-wrapper-inner {*/
-        /*vertical-align: middle;*/
-    /*}*/
-    /*/!* Handle the widths *!/*/
-    /*.masthead,*/
-    /*.mastfoot,*/
-    /*.cover-container {*/
-        /*width: 100%; /!* Must be percentage or pixels for horizontal alignment *!/*/
-    /*}*/
-/*}*/
-
-/*@media (min-width: 992px) {*/
-    /*.masthead,*/
-    /*.mastfoot,*/
-    /*.cover-container {*/
-        /*width: 700px;*/
-    /*}*/
-/*}*/
+a.btn-starfarer:focus, a.btn-starfarer:hover {
+    color: #fff;
+}
