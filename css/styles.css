@@ -39,6 +39,15 @@
     font-weight: bold;
     src: url("../fonts/Sansation_Regular.ttf") format("opentype");
 }
+@font-face {
+    font-family: Sansation-Bold;
+    src: url("../fonts/Sansation_Bold_Italic.ttf") format("opentype");
+}
+@font-face {
+    font-family: Sansation-Bold;
+    font-weight: bold;
+    src: url("../fonts/Sansation_Bold_Italic.ttf") format("opentype");
+}
 
 /* Base structure */
 html,
@@ -62,6 +71,10 @@ h1 {
 h3 {
     text-align: center;
     font-family: WebHostingHub-Glyphs, Helvetica, Verdana, Sans-Serif;
+}
+h4 {
+    font-family: Sansation-Bold, Helvetica, Verdana, Sans-Serif;
+    font-size: 22px;
 }
 
 /* Header */
@@ -147,15 +160,54 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
     font-size: 16px;
+    /*min-height: 300px;*/
 }
 
 /* Benefits */
 .benefits {
     color:black;
-    background-color: white;
+    background-color: #F9F9F9;
     text-align: justify;
     width: 100%;
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
-    font-size: 16px;
+    /*font-size: 16px;*/
+    background-image: url("../img/StarfarerSketch.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /*min-height: 300px;*/
 }
+.p-benefits {
+    font-family: Sansation, Helvetica, Verdana, Sans-Serif;
+    font-size: 14px;
+}
+/*.btn-benefits {*/
+    /*font-family: Sansation, Helvetica, Verdana, Sans-Serif;*/
+    /*color: #fff;*/
+    /*padding: 10px 10px;*/
+    /*font-size: 14px;*/
+    /*line-height: 1.33333;*/
+    /*border-radius: 6px;*/
+    /*background-image: url("../img/IconRedCircleish.png");*/
+    /*background-size: 100% 100%;*/
+    /*font-weight: bold;*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*width: 181px;*/
+    /*height: 158px;*/
+/*}*/
+/*a.btn-benefits:focus, a.btn-benefits:hover {*/
+    /*color: #fff;*/
+/*}*/
+
+/* Get Involved */
+.involved {
+    min-height: 300px;
+}
+
+/* Fleet Events */
+.events {
+    min-height: 300px;
+}
+
