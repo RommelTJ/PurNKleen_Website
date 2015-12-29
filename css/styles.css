@@ -156,11 +156,13 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     color:black;
     background-color: white;
     text-align: justify;
+    max-width: unset;
     width: 100%;
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
     font-size: 16px;
-    /*min-height: 300px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Benefits */
@@ -168,38 +170,26 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     color:black;
     background-color: #F9F9F9;
     text-align: justify;
+    max-width: unset;
     width: 100%;
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
-    /*font-size: 16px;*/
-    background-image: url("../img/StarfarerSketch.jpg");
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    /*min-height: 300px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .p-benefits {
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
     font-size: 14px;
 }
-/*.btn-benefits {*/
-    /*font-family: Sansation, Helvetica, Verdana, Sans-Serif;*/
-    /*color: #fff;*/
-    /*padding: 10px 10px;*/
-    /*font-size: 14px;*/
-    /*line-height: 1.33333;*/
-    /*border-radius: 6px;*/
-    /*background-image: url("../img/IconRedCircleish.png");*/
-    /*background-size: 100% 100%;*/
-    /*font-weight: bold;*/
-    /*display: inline-block;*/
-    /*text-align: center;*/
-    /*width: 181px;*/
-    /*height: 158px;*/
-/*}*/
-/*a.btn-benefits:focus, a.btn-benefits:hover {*/
-    /*color: #fff;*/
-/*}*/
+.card-img-top {
+    width: 100%;
+}
+.card {
+    border: 2px solid black;
+}
+.card:hover {
+    border: 2px solid #9D2737;
+}
 
 /* Get Involved */
 .involved {
