@@ -162,8 +162,7 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
     font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
 }
 
 /* Benefits */
@@ -175,8 +174,7 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     width: 100%;
     text-shadow: none;
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
 }
 .p-benefits {
     font-family: Sansation, Helvetica, Verdana, Sans-Serif;
@@ -194,6 +192,7 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
 }
 .card {
     border: 2px solid black;
+    margin-top: 20px;
 }
 .card:hover {
     border: 2px solid #9D2737;
@@ -201,7 +200,24 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
 
 /* Get Involved */
 .involved {
-    min-height: 300px;
+    color:black;
+    background-color: white;
+    text-align: justify;
+    max-width: unset;
+    width: 100%;
+    text-shadow: none;
+    font-family: Sansation, Helvetica, Verdana, Sans-Serif;
+    padding: 40px;
+}
+.involved-card {
+    border: 10px solid #80DBFF;
+}
+.involved-card:hover {
+    border: 10px solid #9D2737;
+}
+.btn-primary, .btn-primary:focus, .btn-primary:hover {
+    background-color: #9D2737;
+    border-color: #9D2737;
 }
 
 /* Fleet Events */
