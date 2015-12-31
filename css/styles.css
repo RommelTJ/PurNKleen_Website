@@ -251,3 +251,20 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
 p.events-padding {
     height: 40px;
 }
+
+/* Footer */
+#footer {
+    min-height: 100px;
+}
+.arrow, .arrow:hover, .arrow:focus {
+    width: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.socialmedia {
+    float: right;
+}
+.socialbutton {
+
+}
