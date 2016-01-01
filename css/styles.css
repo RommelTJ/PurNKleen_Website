@@ -161,8 +161,8 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     color: #fff;
 }
 
-/* Ownership */
-.ownership {
+/* What We Do */
+.what-we-do {
     color:black;
     background-color: white;
     text-align: justify;
@@ -219,15 +219,15 @@ a.btn-starfarer:focus, a.btn-starfarer:hover {
     padding: 40px;
 }
 .involved-card {
-    border: 10px solid #80DBFF;
+    border: 2px solid #80DBFF;
 }
 .involved-card:hover {
-    border: 10px solid #9D2737;
+    border: 2px solid #9D2737;
 }
-.btn-primary, .btn-primary:focus, .btn-primary:hover {
-    background-color: #7A7F85;
-    border-color: #7A7F85;
-}
+/*.btn-primary, .btn-primary:focus, .btn-primary:hover {*/
+    /*background-color: #9D2737;*/
+    /*border-color: #9D2737;*/
+/*}*/
 
 /* Fleet Events */
 .events {
