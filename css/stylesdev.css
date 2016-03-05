@@ -1,0 +1,50 @@
+/*
+ * Globals
+ */
+
+/* Fonts */
+
+
+/* Base structure */
+html,
+body {
+    background: #656565;
+}
+
+div.navigation {
+    height: 50px;
+    color: white;
+}
+
+img#pnkLogo {
+    height: 50px;
+}
+
+div#bigImage {
+    background-color: black;
+    height: 500px;
+}
+
+div#fleetOps {
+    background-color: blue;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+div#carousel {
+    background-color: #656565;
+    height: 500px;
+}
+
+div#join {
+    background-color: #FFE411;
+    height: 500px;
+}
+
+div#footer {
+    background-color: #656565;
+    height: 50px;
+}
