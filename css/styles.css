@@ -3,11 +3,6 @@
  */
 
 /* Fonts */
-@font-face {
-    font-family: Furore;
-    src: url("../fonts/Furore.otf") format("opentype");
-}
-
 
 /* Base structure */
 html,
