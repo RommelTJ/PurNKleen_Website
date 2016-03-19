@@ -77,11 +77,12 @@ div#purnkleenFeature {
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
+    padding-bottom: 20px;
 }
 div#purnkleenOpsContainer {
     width: 100%;
-    margin-top: 15vh;
-    border-radius: 5px;
+    margin-top: 10vh;
+    min-width: 375px;
 }
 div#purnkleenOpsTitle {
     color: white;
@@ -106,7 +107,7 @@ div#purnkleenOpsTitle {
     float: right;
 }
 .events-padding {
-    padding-top: 8px;
+    padding-top: 25px;
     line-height: 22px;
 }
 .starfarer {
@@ -161,12 +162,13 @@ div#purnkleenOpsTitle {
 .purnkleen-marketing .col-lg-4 p {
     margin-right: 10px;
     margin-left: 10px;
+    text-align: justify;
 }
 h2 {
     font-size: 20px;
 }
 .featurette-heading {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 .featurette-heading {
     font-size: 50px;
@@ -178,4 +180,7 @@ h2 {
 }
 .featurette-divider {
     margin: 80px 0;
+}
+.featurette-image {
+    margin-top: 80px;
 }
