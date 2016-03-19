@@ -127,6 +127,12 @@ div#purnkleenOpsTitle {
 .fleet-ops {
     height: 120px;
 }
+a.opslink {
+    color: white;
+}
+a.opslink:hover, a.opslink:active, a.opslink:focus, a.opslink:active:focus, {
+    color: #80DBFF;
+}
 @media (min-width: 768px) {
     .starfarer {
         background-image: url('../img/starfarer.png');
