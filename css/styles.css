@@ -209,8 +209,9 @@ h2 {
     letter-spacing: -1px;
 }
 .featurette-divider {
-    /*margin: 80px 0;*/
-    margin-bottom: 60px;
+    margin: 80px 0;
+    /*margin-top: 90px;*/
+    /*margin-bottom: 20px;*/
 }
 .featurette-image {
     margin-top: 80px;
@@ -229,6 +230,7 @@ h2 {
 }
 .player_row {
     list-style: none;
+    padding: 1em;
 }
 .player_image_container {
     border-radius: 5px;
