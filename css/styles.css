@@ -97,6 +97,15 @@ div#purnkleenJobsFeature {
     background-position: center;
     padding-bottom: 10px;
 }
+div#purnkleenAboutFeature {
+    background-image: url("../img/LandedConny.jpg");
+    background-color: rgba(0,0,0, 0.9);
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-bottom: 10px;
+}
 div#purnkleenOpsContainer {
     width: 100%;
     margin-top: 10vh;
@@ -153,6 +162,13 @@ div#purnkleenOpsTitle {
     font-family: Furore;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.74);
 }
+.about-motto {
+    color: #FFE411;
+    font-size: 30px;
+    padding-top: 60px;
+    font-family: Furore;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.74);
+}
 .solutions {
     color: #ED173A;
 }
@@ -188,6 +204,11 @@ a.opslink:hover, a.opslink:active, a.opslink:focus, a.opslink:active:focus, {
         height: 40vh;
         background-size: 100% auto;
     }
+    div#purnkleenAboutFeature {
+        background-image: url("../img/LandedConny.jpg");
+        height: 40vh;
+        background-size: 100% auto;
+    }
     .motto {
         padding-top: 30vh;
     }
@@ -195,6 +216,9 @@ a.opslink:hover, a.opslink:active, a.opslink:focus, a.opslink:active:focus, {
         padding-top: 20vh;
     }
     .jobs-motto {
+        padding-top: 20vh;
+    }
+    .about-motto {
         padding-top: 20vh;
     }
     div#purnkleenOpsContainer {
@@ -292,4 +316,12 @@ h2 {
         margin: 0;
         padding: 1em;
     }
+}
+
+.dl-horizontal dt {
+    width: 200px;
+}
+
+.dl-horizontal dd {
+    margin-left: 220px;
 }
