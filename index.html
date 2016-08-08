@@ -176,9 +176,9 @@
 <script src="./js/moment.js"></script>
 <script src="./js/moment-timezone-with-data-2010-2020.js"></script>
 <script>
-    var clock1 = moment.tz("2016-05-02 18:00", "America/Los_Angeles");
-    var clock2 = moment.tz("2016-05-03 15:00", "America/Los_Angeles");
-    var clock3 = moment.tz("2016-05-09 03:45", "America/Los_Angeles");
+    var clock1 = moment.tz("2016-09-02 18:00", "America/Los_Angeles");
+    var clock2 = moment.tz("2016-10-03 15:00", "America/Los_Angeles");
+    var clock3 = moment.tz("2016-11-09 03:45", "America/Los_Angeles");
 
     jQuery('#clock1').countdown(clock1.toDate(), function(event) {
         jQuery(this).html(event.strftime('%D days %H:%M:%S'));
